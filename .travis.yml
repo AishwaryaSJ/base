@@ -1,7 +1,7 @@
 language:c
-sudo:false#onlyforfasterbuilds
-compiler:
-gcc
-script:
--gcc -o endian endian.c
--./endian.c
+  sudo:false #only for faster builds
+    compiler:
+      -gcc
+    script:
+      -gcc -o endian endian.c
+      -./endian.c
