@@ -2,6 +2,6 @@ language:c
 sudo:false#onlyforfasterbuilds
 compiler:
 gcc
-script
+script:
 -gcc -o endian endian.c
 -./endian.c
